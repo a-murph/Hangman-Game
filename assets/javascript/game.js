@@ -38,7 +38,6 @@ var hangman = {
 	setWord: function() { //set up the word to guess
 		//make currentWord equal to next artist name
 		this.currentWord = this.artists[this.currentNumber];
-		console.log(this.currentWord);
 		//create hidden version of currentWord
 		this.currentWordHidden = "";
 		for (var i = 0; i < this.currentWord.length; i++) {
@@ -47,7 +46,6 @@ var hangman = {
 			else
 				this.currentWordHidden += "-";
 		}
-		console.log(this.currentWordHidden);
 		//display hidden word on page
 		this.updateDisplay();
 	},
