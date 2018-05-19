@@ -5,10 +5,14 @@
 	<title>Hangman Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<script src="assets/javascript/game.js"></script>
 </head>
 <body>
-	<p>Current Word: <span id="current-word"></span></p>
-	<p>Letters Guessed: <span id="letters-guessed"></span></p>
+	<h2>Current Word: <span id="current-word"></span></h2>
+	<h3>Letters Guessed: <span id="letters-guessed"></span></h3>
+	<h3>Mistakes Remaining: <span id="mistake-count"></span></h3>
+	<h3>Wins: <span id="win-count"></span></h3>
+	<h3>Losses: <span id="loss-count"></span></h3>
 </body>
+<!-- script below body to ensure body has loaded before script runs -->
+<script src="assets/javascript/game.js"></script>
 </html>
