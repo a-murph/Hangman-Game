@@ -1,0 +1,50 @@
+#container {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+#title {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+#music-info {
+	padding: 20px;
+	width: 42.5%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid black;
+}
+#now-playing {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#song-name {
+	font-weight: normal;
+	font-size: 24px;
+}
+#album-image {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#game-info {
+	padding: 20px;
+	width: 42.5%;
+	height: 100%;
+	float: right;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.5em;
+	border-left: 1px solid black;
+}
