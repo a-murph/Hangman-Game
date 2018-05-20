@@ -21,6 +21,7 @@
 	height: 100%;
 	float: left;
 	border-right: 1px solid black;
+	line-height: 1.5em;
 }
 #now-playing {
 	font-size: 20px;
@@ -32,10 +33,13 @@
 	font-weight: normal;
 	font-size: 24px;
 }
-#album-image {
+#album-image, audio {
 	width: 80%;
 	margin-right: 10%;
 	margin-left: 10%;
+}
+audio {
+	display: none;
 }
 
 #game-info {
