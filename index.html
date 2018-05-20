@@ -7,11 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
-	<h2>Current Word: <span id="current-word"></span></h2>
-	<h3>Letters Guessed: <span id="letters-guessed"></span></h3>
-	<h3>Mistakes Remaining: <span id="mistake-count"></span></h3>
-	<h3>Wins: <span id="win-count"></span></h3>
-	<h3>Losses: <span id="loss-count"></span></h3>
+<div id="container">
+	<header id="title">
+		<h1>Progressive Rock & Metal Hangman</h1>
+	</header>
+	<section id="music-info">
+		<h2 id="now-playing">Now Playing: <br><span id="song-name">The Mars Volta - Goliath</span></h2>
+		<img src="assets/images/The Mars Volta - The Bedlam In Goliath.jpg" alt="placeholder" id="album-image">
+	</section>
+	<section id="game-info">
+		<h2>Current Word: <br><span id="current-word"></span></h2>
+		<br>
+		<h3>Letters Guessed: <br><span id="letters-guessed"> </span></h3>
+		<br>
+		<h3>Mistakes Remaining: <span id="mistake-count"></span></h3>
+		<h3>Wins: <span id="win-count"></span></h3>
+		<h3>Losses: <span id="loss-count"></span></h3>
+	</section>
+</div>
 </body>
 <!-- script below body to ensure body has loaded before script runs -->
 <script src="assets/javascript/game.js"></script>
